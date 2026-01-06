@@ -1,0 +1,25 @@
+# Ignore Python virtual environment
+venv/
+env/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# Ignore model files if they're large (optional)
+# *.keras
+# *.h5
+
+# Ignore data files
+*.npy
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
